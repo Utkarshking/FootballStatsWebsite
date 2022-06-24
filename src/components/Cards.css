@@ -5,6 +5,9 @@
     flex-basis: 100px;
     flex-wrap: wrap;
 }
+.photoresize{
+    height:298px;
+}
 
 .child-flex-item {
     box-shadow: 10px 10px 10px 10px rgba(4, 0, 255, 0.307);
@@ -12,14 +15,14 @@
     border-radius: 10px;
     flex-direction: row;
     height: 500px;
-    flex-basis: 350px;
+    flex-basis: 300px;
 }
 
 /* .child-child-flex-item{
 height:150px;
 
 } */
-#child-child-flex-photo-cristiano {
+/* #child-child-flex-photo-cristiano {
     background-image: url("cristiano.png");
     height: 300px;
 }
@@ -32,7 +35,7 @@ height:150px;
 #child-child-flex-photo-neymar {
     background-image: url("neymar.jpg");
     height: 300px;
-}
+} */
 
 #child-child-flex-name {
     color: black;
