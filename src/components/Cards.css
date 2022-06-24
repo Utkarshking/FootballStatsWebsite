@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    flex-basis: 100px;
+    flex-wrap: wrap;
+}
+
+.child-flex-item {
+    box-shadow: 10px 10px 10px 10px rgba(4, 0, 255, 0.307);
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-direction: row;
+    height: 500px;
+    flex-basis: 350px;
+}
+
+/* .child-child-flex-item{
+height:150px;
+
+} */
+#child-child-flex-photo-cristiano {
+    background-image: url("cristiano.png");
+    height: 300px;
+}
+
+#child-child-flex-photo-messi {
+    background-image: url("messi.jpg");
+    height: 300px;
+}
+
+#child-child-flex-photo-neymar {
+    background-image: url("neymar.jpg");
+    height: 300px;
+}
+
+#child-child-flex-name {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+
+#child-child-flex-button {
+    text-align: center;
+    height: 100px;
+}
